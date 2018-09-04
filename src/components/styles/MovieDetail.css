@@ -1,0 +1,78 @@
+.title {
+  font-size: 50px;
+}
+
+.release-year {
+  display: block;
+  font-size: 0.5em;
+  font-weight: bold;
+  opacity: 0.5; 
+}
+
+.genre {
+  color: #01D277;
+  display: inline-block;
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 50px;
+}
+
+#overview-container {
+  margin: 0 auto;
+}
+
+.section-container p {
+  margin-bottom: 40px;
+}
+
+.section-header {
+  color: #01D277;
+  margin-bottom: 20px;
+}
+
+
+.user-score {
+  border: 1px solid #000;
+  border-radius: 100%;
+  padding: 10px;
+  margin: 0 auto;
+  width: 15%;
+}
+
+@media (min-width: 576px) {
+  .poster {
+    float: left;
+  }
+
+  .title {
+    font-size: 45px;
+    margin-top: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  #movie-container {
+    text-align: left;
+  }
+
+  .title {
+    margin-top: 0;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .release-year {
+    display: inline;
+    vertical-align: middle;
+  }
+
+  .overview {
+    font-size: 20px;
+    width: 80%;
+  }
+
+  .user-score {
+    float: left;
+  }
+}

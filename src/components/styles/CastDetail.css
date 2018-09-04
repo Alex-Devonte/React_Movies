@@ -1,0 +1,33 @@
+.actor-container {
+  
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.actor-name {
+  display: inline-block;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.character-name {
+  font-style: italic;
+  
+}
+
+.actor-picture {
+  vertical-align: middle;
+  width: 75%;
+}
+
+@media (min-width: 500px) {
+  .actor-picture {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .actor-picture {
+    width: 35%;
+  }
+}
